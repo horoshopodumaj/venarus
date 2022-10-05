@@ -1,0 +1,44 @@
+.main {
+    &__block {
+        display: flex;
+        margin-top: 67px;
+    }
+    &__title {
+        font-family: "Merriweather", serif;
+        font-weight: 700;
+        font-size: 55px;
+        line-height: 100%;
+        color: var(--black);
+    }
+
+    &__hint {
+        display: flex;
+        align-items: center;
+        gap: 30px;
+    }
+
+    &__scheme {
+        width: 67px;
+        height: 67px;
+    }
+
+    &__download {
+        width: 68px;
+        height: 67px;
+    }
+
+    &__address {
+        width: 68px;
+        height: 81px;
+    }
+
+    &__left {
+        width: 68px;
+        height: 68px;
+    }
+
+    &__right {
+        width: 68px;
+        height: 68px;
+    }
+}

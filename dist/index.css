@@ -117,7 +117,7 @@ h6 {
   height: 50px;
   margin-right: 52px;
 }
-.header__adress {
+.header__address {
   width: 42px;
   height: 49px;
   margin-right: 44px;
@@ -142,6 +142,53 @@ h6 {
 }
 .page__header {
   margin-top: 28px;
+}
+
+.main__block {
+  display: flex;
+  margin-top: 67px;
+}
+.main__title {
+  font-family: "Merriweather", serif;
+  font-weight: 700;
+  font-size: 55px;
+  line-height: 100%;
+  color: var(--black);
+}
+.main__hint {
+  display: flex;
+  align-items: center;
+  gap: 30px;
+}
+.main__scheme {
+  width: 67px;
+  height: 67px;
+}
+.main__download {
+  width: 68px;
+  height: 67px;
+}
+.main__address {
+  width: 68px;
+  height: 81px;
+}
+.main__left {
+  width: 68px;
+  height: 68px;
+}
+.main__right {
+  width: 68px;
+  height: 68px;
+}
+
+.button__right {
+  background-color: var(--purple-2);
+}
+.button__left {
+  background-color: var(--purple-2);
+}
+.button__shop {
+  background-color: var(--purple-2);
 }
 
 /*# sourceMappingURL=index.css.map */
