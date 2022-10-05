@@ -1,0 +1,37 @@
+@import url("https://fonts.googleapis.com/css2?family=Merriweather:wght@700&family=Roboto:wght@300;400&display=swap");
+:root {
+  --black: #000000;
+  --black-2: #242424;
+  --grey: #777777;
+  --grey-2: #7a7a7a;
+  --grey-3: #828282;
+  --purple: #47093e;
+  --purple-2: #590d56;
+  --white: #ffffff;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+}
+
+.container {
+  margin: 0 auto;
+  max-width: 1140px;
+}
+@media screen and (max-width: 1439px) and (min-width: 1024px) {
+  .container {
+    padding: 0 48px;
+  }
+}
+@media screen and (max-width: 1023px) and (min-width: 768px) {
+  .container {
+    padding: 0 36px;
+  }
+}
+@media screen and (max-width: 767px) {
+  .container {
+    padding: 0 20px;
+  }
+}
+
+/*# sourceMappingURL=index.css.map */
