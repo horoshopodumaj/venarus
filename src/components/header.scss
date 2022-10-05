@@ -1,6 +1,34 @@
 .header {
+    &__box {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
     &__venarus {
         width: 203px;
         height: 39px;
+    }
+
+    &__search {
+        width: 48px;
+        height: 50px;
+        margin-right: 52px;
+    }
+
+    &__adress {
+        width: 42px;
+        height: 49px;
+        margin-right: 44px;
+    }
+
+    &__menu {
+        width: 68px;
+        height: 45px;
+    }
+
+    &__nav {
+        display: flex;
+        align-items: center;
     }
 }
