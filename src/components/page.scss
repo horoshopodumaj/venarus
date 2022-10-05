@@ -1,0 +1,10 @@
+.page {
+    &__box {
+        margin: 0 auto;
+        max-width: 1140px;
+
+        @media screen and (max-width: 1139px) {
+            padding: 0 20px;
+        }
+    }
+}
