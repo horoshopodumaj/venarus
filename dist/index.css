@@ -148,6 +148,10 @@ h6 {
   display: flex;
   margin-top: 67px;
 }
+.main__nav {
+  width: 30%;
+  z-index: 2;
+}
 .main__title {
   font-family: "Merriweather", serif;
   font-weight: 700;
@@ -171,6 +175,21 @@ h6 {
 .main__address {
   width: 68px;
   height: 81px;
+}
+.main__img_90060 {
+  position: relative;
+  top: 58px;
+  left: -109px;
+}
+.main__img_90030 {
+  position: relative;
+  top: -649px;
+  left: 106px;
+}
+.main__img_450 {
+  position: relative;
+  top: -359px;
+  left: 447px;
 }
 .main__left {
   width: 68px;

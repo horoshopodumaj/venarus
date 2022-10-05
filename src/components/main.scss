@@ -3,6 +3,11 @@
         display: flex;
         margin-top: 67px;
     }
+
+    &__nav {
+        width: 30%;
+        z-index: 2;
+    }
     &__title {
         font-family: "Merriweather", serif;
         font-weight: 700;
@@ -30,6 +35,22 @@
     &__address {
         width: 68px;
         height: 81px;
+    }
+
+    &__img_90060 {
+        position: relative;
+        top: 58px;
+        left: -109px;
+    }
+    &__img_90030 {
+        position: relative;
+        top: -649px;
+        left: 106px;
+    }
+    &__img_450 {
+        position: relative;
+        top: -359px;
+        left: 447px;
     }
 
     &__left {
