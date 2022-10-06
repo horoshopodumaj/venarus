@@ -1,3 +1,23 @@
 .mission {
     display: flex;
+    gap: 66px;
+    &__description {
+        width: 20%;
+    }
+
+    &__title {
+        font-family: "Merriweather", serif;
+        font-weight: 700;
+        font-size: 30px;
+        line-height: 120%;
+        margin-bottom: 38px;
+        color: var(--black);
+    }
+
+    &__text {
+        font-size: 16px;
+        line-height: 154.8%;
+        font-weight: 400;
+        color: var(--grey);
+    }
 }
