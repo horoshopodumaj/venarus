@@ -30,6 +30,10 @@
     &__link {
         text-decoration: underline;
         color: var(--purple-2);
+        color: var(--purple-2);
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 100%;
     }
 
     &__scheme {
