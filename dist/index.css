@@ -309,5 +309,57 @@ h6 {
   font-weight: 400;
   color: var(--grey);
 }
+.mission__content {
+  width: 80%;
+}
+.mission__point {
+  display: flex;
+  border-bottom: 1px solid var(--purple);
+  position: relative;
+}
+.mission__point:first-child {
+  border-top: 1px solid var(--purple);
+}
+.mission__convulsion {
+  padding-top: 13px;
+  padding-bottom: 47px;
+  position: absolute;
+}
+.mission__heaviness {
+  padding-top: 13px;
+  padding-bottom: 47px;
+  position: absolute;
+}
+.mission__pain {
+  padding-top: 13px;
+  padding-bottom: 47px;
+  position: absolute;
+}
+.mission__edema {
+  padding-top: 13px;
+  padding-bottom: 47px;
+  position: absolute;
+}
+.mission__tone {
+  padding-top: 13px;
+  padding-bottom: 47px;
+  position: absolute;
+}
+.mission__link {
+  align-self: end;
+  padding-top: 142px;
+  padding-bottom: 32px;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 117%;
+  text-decoration: underline;
+  width: 34%;
+}
+.mission__symptom {
+  font-weight: 300;
+  font-size: 30px;
+  align-self: center;
+  color: var(--black);
+}
 
 /*# sourceMappingURL=index.css.map */

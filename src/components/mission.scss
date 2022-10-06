@@ -20,4 +20,61 @@
         font-weight: 400;
         color: var(--grey);
     }
+
+    &__content {
+        width: 80%;
+    }
+
+    &__point {
+        display: flex;
+        border-bottom: 1px solid var(--purple);
+        position: relative;
+        &:first-child {
+            border-top: 1px solid var(--purple);
+        }
+    }
+
+    &__convulsion {
+        padding-top: 13px;
+        padding-bottom: 47px;
+        position: absolute;
+    }
+    &__heaviness {
+        padding-top: 13px;
+        padding-bottom: 47px;
+        position: absolute;
+    }
+    &__pain {
+        padding-top: 13px;
+        padding-bottom: 47px;
+        position: absolute;
+    }
+    &__edema {
+        padding-top: 13px;
+        padding-bottom: 47px;
+        position: absolute;
+    }
+    &__tone {
+        padding-top: 13px;
+        padding-bottom: 47px;
+        position: absolute;
+    }
+
+    &__link {
+        align-self: end;
+        padding-top: 142px;
+        padding-bottom: 32px;
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 117%;
+        text-decoration: underline;
+        width: 34%;
+    }
+
+    &__symptom {
+        font-weight: 300;
+        font-size: 30px;
+        align-self: center;
+        color: var(--black);
+    }
 }
