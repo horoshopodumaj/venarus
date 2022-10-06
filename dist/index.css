@@ -225,6 +225,35 @@ h6 {
   height: 68px;
   stroke: var(--purple-2);
 }
+.main__efficient {
+  width: 67px;
+  height: 67px;
+}
+.main__dosage {
+  width: 68px;
+  height: 59px;
+}
+.main__tablet {
+  width: 68px;
+  height: 58px;
+}
+.main__description {
+  font-family: "Merriweather", serif;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 154.8%;
+}
+.main__advantages {
+  display: flex;
+  gap: 128px;
+  margin-top: 103px;
+  margin-bottom: 128px;
+}
+.main__advantage {
+  display: flex;
+  gap: 30px;
+  align-items: center;
+}
 
 .button__right {
   background-color: var(--white);
@@ -256,6 +285,11 @@ h6 {
   padding-bottom: 22px;
   border-top: 1px solid var(--purple);
   border-bottom: 1px solid var(--purple);
+  font-weight: 300;
+}
+
+.mission {
+  display: flex;
 }
 
 /*# sourceMappingURL=index.css.map */

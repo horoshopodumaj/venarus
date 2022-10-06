@@ -90,4 +90,39 @@
         height: 68px;
         stroke: var(--purple-2);
     }
+
+    &__efficient {
+        width: 67px;
+        height: 67px;
+    }
+
+    &__dosage {
+        width: 68px;
+        height: 59px;
+    }
+
+    &__tablet {
+        width: 68px;
+        height: 58px;
+    }
+
+    &__description {
+        font-family: "Merriweather", serif;
+        font-weight: 700;
+        font-size: 16px;
+        line-height: 154.8%;
+    }
+
+    &__advantages {
+        display: flex;
+        gap: 128px;
+        margin-top: 103px;
+        margin-bottom: 128px;
+    }
+
+    &__advantage {
+        display: flex;
+        gap: 30px;
+        align-items: center;
+    }
 }
