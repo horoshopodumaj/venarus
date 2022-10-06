@@ -1,12 +1,19 @@
 .button {
     &__right {
-        background-color: var(--purple-2);
+        background-color: var(--white);
     }
     &__left {
-        background-color: var(--purple-2);
+        background-color: var(--white);
     }
 
     &__shop {
-        background-color: var(--purple-2);
+        background-color: var(--white);
+        border: 1px solid var(--purple-2);
+        border-radius: 33.5px;
+        padding-top: 20px;
+        padding-bottom: 25px;
+        padding-right: 80px;
+        padding-left: 79px;
+        margin-top: 31px;
     }
 }
