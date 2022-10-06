@@ -69,7 +69,7 @@
     &__img_450 {
         position: relative;
         top: -352px;
-        left: 447px;
+        left: 440px;
     }
 
     &__buttons {
@@ -124,5 +124,10 @@
         display: flex;
         gap: 30px;
         align-items: center;
+    }
+
+    &__production {
+        margin-top: 300px;
+        margin-bottom: 220px;
     }
 }
