@@ -78,17 +78,21 @@
         align-items: center;
     }
 
+    &__circleButtons {
+        z-index: 10;
+    }
+
     &__left {
         width: 68px;
         height: 68px;
         margin-right: 30px;
-        stroke: var(--purple-2);
+        stroke: var(--white);
     }
 
     &__right {
         width: 68px;
         height: 68px;
-        stroke: var(--purple-2);
+        stroke: var(--white);
     }
 
     &__efficient {
@@ -139,13 +143,4 @@
     &__shop {
         margin-bottom: 94px;
     }
-}
-
-#canvas {
-    position: absolute;
-    top: 120px;
-    right: 0;
-    bottom: 0;
-    left: 0;
-    margin: auto;
 }
