@@ -7,6 +7,7 @@
   --grey-3: #828282;
   --purple: #47093e;
   --purple-2: #590d56;
+  --purple-3: #540c50;
   --white: #ffffff;
 }
 
@@ -616,6 +617,80 @@ h6 {
 }
 .shop__button:first-child {
   margin-right: 0;
+}
+
+.footer {
+  box-shadow: 0px 0px 38px -1px var(--purple);
+}
+.footer__title {
+  font-weight: 400;
+  font-size: 31px;
+  letter-spacing: 2px;
+  color: var(--purple-3);
+  opacity: 0.8;
+  margin-top: 29px;
+  margin-bottom: 50px;
+}
+.footer__message {
+  display: flex;
+  align-items: center;
+  margin-bottom: 35px;
+}
+.footer__trouble {
+  font-weight: 300;
+  font-size: 12px;
+  color: var(--grey-2);
+  margin-right: 221px;
+}
+.footer__conditions {
+  font-weight: 300;
+  font-size: 12px;
+  color: var(--grey-2);
+  margin-right: 138px;
+}
+.footer__vk {
+  width: 33px;
+  height: 20px;
+  margin-right: 40px;
+}
+.footer__fb {
+  width: 28px;
+  height: 27px;
+  margin-right: 40px;
+}
+.footer__twi {
+  width: 31px;
+  height: 25px;
+  margin-right: 40px;
+}
+.footer__class {
+  width: 27px;
+  height: 27px;
+}
+.footer__information {
+  float: right;
+  display: flex;
+  margin-bottom: 28px;
+}
+.footer__address {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 130%;
+  color: var(--grey-3);
+  margin-right: 100px;
+}
+.footer__logo {
+  margin-right: 15px;
+}
+.footer__studio {
+  width: 91px;
+  height: 41px;
+}
+.footer__developer {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 107%;
+  color: var(--grey-3);
 }
 
 /*# sourceMappingURL=index.css.map */

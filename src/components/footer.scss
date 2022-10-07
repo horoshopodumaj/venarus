@@ -1,0 +1,83 @@
+.footer {
+    box-shadow: 0px 0px 38px -1px var(--purple);
+    &__title {
+        font-weight: 400;
+        font-size: 31px;
+        letter-spacing: 2px;
+        color: var(--purple-3);
+        opacity: 0.8;
+        margin-top: 29px;
+        margin-bottom: 50px;
+    }
+
+    &__message {
+        display: flex;
+        align-items: center;
+        margin-bottom: 35px;
+    }
+    &__trouble {
+        font-weight: 300;
+        font-size: 12px;
+        color: var(--grey-2);
+        margin-right: 221px;
+    }
+
+    &__conditions {
+        font-weight: 300;
+        font-size: 12px;
+        color: var(--grey-2);
+        margin-right: 138px;
+    }
+
+    &__vk {
+        width: 33px;
+        height: 20px;
+        margin-right: 40px;
+    }
+
+    &__fb {
+        width: 28px;
+        height: 27px;
+        margin-right: 40px;
+    }
+
+    &__twi {
+        width: 31px;
+        height: 25px;
+        margin-right: 40px;
+    }
+
+    &__class {
+        width: 27px;
+        height: 27px;
+    }
+
+    &__information {
+        float: right;
+        display: flex;
+        margin-bottom: 28px;
+    }
+
+    &__address {
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 130%;
+        color: var(--grey-3);
+        margin-right: 100px;
+    }
+    &__logo {
+        margin-right: 15px;
+    }
+
+    &__studio {
+        width: 91px;
+        height: 41px;
+    }
+
+    &__developer {
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 107%;
+        color: var(--grey-3);
+    }
+}
