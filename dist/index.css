@@ -292,6 +292,10 @@ h6 {
   font-size: 18px;
   line-height: 100%;
 }
+.button__shop:hover {
+  background-color: var(--purple-2);
+  color: var(--white);
+}
 
 .runningLine {
   font-size: 48px;
@@ -430,6 +434,10 @@ h6 {
   font-weight: 400;
   font-size: 18px;
   line-height: 100%;
+}
+.production__button:hover {
+  background-color: var(--purple-2);
+  color: var(--white);
 }
 
 .specialists {
@@ -583,19 +591,21 @@ h6 {
 }
 .shop__content {
   width: 77%;
+  display: flex;
+  flex-direction: column;
 }
 .shop__images {
   width: 800px;
-  height: 440px;
+  height: 410px;
 }
 .shop__img_90030 {
   position: relative;
-  top: -329px;
+  top: -359px;
   left: 49px;
 }
 .shop__img_450 {
   position: relative;
-  top: -40px;
+  top: -71px;
   left: 440px;
 }
 .shop__button {
@@ -614,6 +624,10 @@ h6 {
   font-size: 18px;
   line-height: 100%;
   margin-right: 30px;
+}
+.shop__button:hover {
+  background-color: var(--purple-2);
+  color: var(--white);
 }
 .shop__button:first-child {
   margin-right: 0;

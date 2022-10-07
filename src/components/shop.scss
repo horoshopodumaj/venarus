@@ -22,20 +22,22 @@
 
     &__content {
         width: 77%;
+        display: flex;
+        flex-direction: column;
     }
 
     &__images {
         width: 800px;
-        height: 440px;
+        height: 410px;
     }
     &__img_90030 {
         position: relative;
-        top: -329px;
+        top: -359px;
         left: 49px;
     }
     &__img_450 {
         position: relative;
-        top: -40px;
+        top: -71px;
         left: 440px;
     }
 
@@ -55,6 +57,10 @@
         font-size: 18px;
         line-height: 100%;
         margin-right: 30px;
+        &:hover {
+            background-color: var(--purple-2);
+            color: var(--white);
+        }
         &:first-child {
             margin-right: 0;
         }

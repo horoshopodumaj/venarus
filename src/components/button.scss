@@ -19,5 +19,9 @@
         font-weight: 400;
         font-size: 18px;
         line-height: 100%;
+        &:hover {
+            background-color: var(--purple-2);
+            color: var(--white);
+        }
     }
 }
