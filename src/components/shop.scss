@@ -1,0 +1,62 @@
+.shop {
+    display: flex;
+    gap: 29px;
+    &__description {
+        width: 23%;
+    }
+    &__title {
+        font-family: "Merriweather", serif;
+        font-weight: 700;
+        font-size: 30px;
+        line-height: 120%;
+        color: var(--black);
+        margin-bottom: 26px;
+    }
+
+    &__text {
+        font-size: 16px;
+        line-height: 154.8%;
+        font-weight: 400;
+        color: var(--grey);
+    }
+
+    &__content {
+        width: 77%;
+    }
+
+    &__images {
+        width: 800px;
+        height: 440px;
+    }
+    &__img_90030 {
+        position: relative;
+        top: -329px;
+        left: 49px;
+    }
+    &__img_450 {
+        position: relative;
+        top: -40px;
+        left: 440px;
+    }
+
+    &__button {
+        background-color: var(--white);
+        border: 1px solid var(--purple-2);
+        border-radius: 33.5px;
+        padding-top: 20px;
+        padding-bottom: 25px;
+        padding-right: 80px;
+        padding-left: 79px;
+        width: 263px;
+        height: 67px;
+        float: right;
+        color: var(--purple-2);
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 100%;
+        margin-right: 30px;
+        &:first-child {
+            margin-right: 0;
+        }
+    }
+}

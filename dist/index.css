@@ -263,6 +263,13 @@ h6 {
   margin-top: 300px;
   margin-bottom: 220px;
 }
+.main__info {
+  margin-top: 217px;
+  margin-bottom: 150px;
+}
+.main__shop {
+  margin-bottom: 94px;
+}
 
 .button__right {
   background-color: var(--white);
@@ -481,8 +488,6 @@ h6 {
 
 .info {
   display: flex;
-  margin-top: 217px;
-  margin-bottom: 150px;
   gap: 29px;
 }
 .info__description {
@@ -552,6 +557,65 @@ h6 {
 }
 .info__button {
   margin-top: 35px;
+}
+
+.shop {
+  display: flex;
+  gap: 29px;
+}
+.shop__description {
+  width: 23%;
+}
+.shop__title {
+  font-family: "Merriweather", serif;
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 120%;
+  color: var(--black);
+  margin-bottom: 26px;
+}
+.shop__text {
+  font-size: 16px;
+  line-height: 154.8%;
+  font-weight: 400;
+  color: var(--grey);
+}
+.shop__content {
+  width: 77%;
+}
+.shop__images {
+  width: 800px;
+  height: 440px;
+}
+.shop__img_90030 {
+  position: relative;
+  top: -329px;
+  left: 49px;
+}
+.shop__img_450 {
+  position: relative;
+  top: -40px;
+  left: 440px;
+}
+.shop__button {
+  background-color: var(--white);
+  border: 1px solid var(--purple-2);
+  border-radius: 33.5px;
+  padding-top: 20px;
+  padding-bottom: 25px;
+  padding-right: 80px;
+  padding-left: 79px;
+  width: 263px;
+  height: 67px;
+  float: right;
+  color: var(--purple-2);
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 100%;
+  margin-right: 30px;
+}
+.shop__button:first-child {
+  margin-right: 0;
 }
 
 /*# sourceMappingURL=index.css.map */
