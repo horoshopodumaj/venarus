@@ -8,9 +8,11 @@
         font-size: 30px;
         line-height: 120%;
         color: var(--black);
+        z-index: 10;
     }
     &__gallery {
         width: 76%;
+        z-index: 10;
     }
 
     &__content {
@@ -26,22 +28,22 @@
     }
 
     &__up {
-        background-color: var(--white);
+        background-color: transparent;
         margin-bottom: 28px;
     }
 
     &__svg {
         width: 68px;
         height: 68px;
-        stroke: var(--purple-2);
+        stroke: var(--white);
     }
     &__down {
-        background-color: var(--white);
+        background-color: transparent;
     }
 
     &__button {
-        background-color: var(--white);
-        border: 1px solid var(--purple-2);
+        background-color: transparent;
+        border: 1px solid var(--white);
         border-radius: 33.5px;
         padding-top: 20px;
         padding-bottom: 25px;
@@ -49,7 +51,7 @@
         padding-left: 79px;
         margin-top: 5px;
         float: right;
-        color: var(--purple-2);
+        color: var(--white);
         font-weight: 400;
         font-size: 18px;
         line-height: 100%;

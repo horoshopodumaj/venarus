@@ -297,7 +297,8 @@ h6 {
   z-index: 10;
 }
 .button__shop:hover {
-  opacity: 0.7;
+  background-color: var(--purple-2);
+  color: var(--white);
 }
 
 .runningLine {
@@ -397,9 +398,11 @@ h6 {
   font-size: 30px;
   line-height: 120%;
   color: var(--black);
+  z-index: 10;
 }
 .production__gallery {
   width: 76%;
+  z-index: 10;
 }
 .production__content {
   display: flex;
@@ -412,20 +415,20 @@ h6 {
   margin-left: 20px;
 }
 .production__up {
-  background-color: var(--white);
+  background-color: transparent;
   margin-bottom: 28px;
 }
 .production__svg {
   width: 68px;
   height: 68px;
-  stroke: var(--purple-2);
+  stroke: var(--white);
 }
 .production__down {
-  background-color: var(--white);
+  background-color: transparent;
 }
 .production__button {
-  background-color: var(--white);
-  border: 1px solid var(--purple-2);
+  background-color: transparent;
+  border: 1px solid var(--white);
   border-radius: 33.5px;
   padding-top: 20px;
   padding-bottom: 25px;
@@ -433,7 +436,7 @@ h6 {
   padding-left: 79px;
   margin-top: 5px;
   float: right;
-  color: var(--purple-2);
+  color: var(--white);
   font-weight: 400;
   font-size: 18px;
   line-height: 100%;
@@ -717,6 +720,19 @@ h6 {
   bottom: 0;
   left: 0;
   margin: auto;
+}
+
+#canvas2 {
+  position: absolute;
+  top: 390px;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  margin: auto;
+}
+
+.canvas__wrapper {
+  position: relative;
 }
 
 /*# sourceMappingURL=index.css.map */
