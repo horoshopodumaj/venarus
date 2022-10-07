@@ -424,4 +424,59 @@ h6 {
   line-height: 100%;
 }
 
+.specialists {
+  display: flex;
+}
+.specialists__description {
+  width: 24%;
+  margin-right: 52px;
+}
+.specialists__title {
+  font-family: "Merriweather", serif;
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 120%;
+  color: var(--black);
+  margin-bottom: 26px;
+}
+.specialists__text {
+  font-size: 16px;
+  line-height: 154.8%;
+  font-weight: 400;
+  color: var(--grey);
+}
+.specialists__gallery {
+  width: 76%;
+  position: relative;
+}
+.specialists__content {
+  width: 100%;
+  position: relative;
+  overflow: hidden;
+  margin-bottom: 30px;
+}
+.specialists__wrapper {
+  position: relative;
+  width: 300%;
+  transition: 0.6s ease-in-out;
+}
+.specialists__img {
+  display: inline-block;
+  float: left;
+}
+.specialists__button {
+  display: inline-block;
+  width: 16px;
+  height: 16px;
+  border-radius: 50%;
+  border: 1px solid var(--purple);
+  margin-right: 16px;
+}
+.specialists__button:last-child {
+  margin-right: 0;
+}
+.specialists__button_active {
+  background-color: var(--purple);
+}
+
 /*# sourceMappingURL=index.css.map */

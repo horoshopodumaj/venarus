@@ -1,0 +1,61 @@
+.specialists {
+    display: flex;
+    &__description {
+        width: 24%;
+        margin-right: 52px;
+    }
+    &__title {
+        font-family: "Merriweather", serif;
+        font-weight: 700;
+        font-size: 30px;
+        line-height: 120%;
+        color: var(--black);
+        margin-bottom: 26px;
+    }
+
+    &__text {
+        font-size: 16px;
+        line-height: 154.8%;
+        font-weight: 400;
+        color: var(--grey);
+    }
+
+    &__gallery {
+        width: 76%;
+        position: relative;
+    }
+
+    &__content {
+        width: 100%;
+        position: relative;
+        overflow: hidden;
+        margin-bottom: 30px;
+    }
+
+    &__wrapper {
+        position: relative;
+        width: calc(100% * 3);
+        transition: 0.6s ease-in-out;
+    }
+
+    &__img {
+        display: inline-block;
+        float: left;
+    }
+
+    &__button {
+        display: inline-block;
+        width: 16px;
+        height: 16px;
+        border-radius: 50%;
+        border: 1px solid var(--purple);
+        margin-right: 16px;
+        &:last-child {
+            margin-right: 0;
+        }
+
+        &_active {
+            background-color: var(--purple);
+        }
+    }
+}

@@ -1,0 +1,23 @@
+.info {
+    display: flex;
+    margin-top: 217px;
+    &__description {
+        width: 24%;
+        margin-right: 52px;
+    }
+    &__title {
+        font-family: "Merriweather", serif;
+        font-weight: 700;
+        font-size: 30px;
+        line-height: 120%;
+        color: var(--black);
+        margin-bottom: 26px;
+    }
+
+    &__text {
+        font-size: 16px;
+        line-height: 154.8%;
+        font-weight: 400;
+        color: var(--grey);
+    }
+}
