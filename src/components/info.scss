@@ -1,9 +1,10 @@
 .info {
     display: flex;
     margin-top: 217px;
+    margin-bottom: 150px;
+    gap: 29px;
     &__description {
         width: 24%;
-        margin-right: 52px;
     }
     &__title {
         font-family: "Merriweather", serif;
@@ -19,5 +20,68 @@
         line-height: 154.8%;
         font-weight: 400;
         color: var(--grey);
+
+        & span {
+            text-transform: lowercase;
+        }
+    }
+
+    &__block {
+        width: 76%;
+    }
+
+    &__content {
+        display: grid;
+        grid-template-areas:
+            "exercise diagnostic diet"
+            "exercise varicosity varicosity";
+        grid-gap: 30px;
+        grid-template-columns: repeat(3, 1fr);
+        grid-template-rows: 1.7fr 1fr;
+    }
+
+    &__card {
+        &_exercise {
+            grid-area: exercise;
+            background: url("../../img/exercise.png") no-repeat;
+            background-size: cover;
+            background-position: center;
+            background-blend-mode: multiply;
+            box-shadow: inset -2px 53px 83px 0px rgba(71, 9, 62, 0.9);
+        }
+
+        &_diagnostic {
+            grid-area: diagnostic;
+            background: url("../../img/diagnostic.png") no-repeat;
+            background-size: cover;
+            background-position: center;
+            background-blend-mode: multiply;
+            box-shadow: inset -2px 53px 83px 0px rgba(71, 9, 62, 0.9);
+        }
+
+        &_diet {
+            grid-area: diet;
+            background: url("../../img/diet.png") no-repeat;
+            background-size: cover;
+            background-position: center;
+            background-blend-mode: multiply;
+            box-shadow: inset -2px 53px 83px 0px rgba(71, 9, 62, 0.9);
+        }
+        &_varicosity {
+            grid-area: varicosity;
+            background-color: var(--purple);
+        }
+    }
+
+    &__head {
+        font-weight: 300;
+        font-size: 36px;
+        color: var(--white);
+        padding: 24px 28px;
+        padding-bottom: 60px;
+    }
+
+    &__button {
+        margin-top: 35px;
     }
 }

@@ -479,4 +479,79 @@ h6 {
   background-color: var(--purple);
 }
 
+.info {
+  display: flex;
+  margin-top: 217px;
+  margin-bottom: 150px;
+  gap: 29px;
+}
+.info__description {
+  width: 24%;
+}
+.info__title {
+  font-family: "Merriweather", serif;
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 120%;
+  color: var(--black);
+  margin-bottom: 26px;
+}
+.info__text {
+  font-size: 16px;
+  line-height: 154.8%;
+  font-weight: 400;
+  color: var(--grey);
+}
+.info__text span {
+  text-transform: lowercase;
+}
+.info__block {
+  width: 76%;
+}
+.info__content {
+  display: grid;
+  grid-template-areas: "exercise diagnostic diet" "exercise varicosity varicosity";
+  grid-gap: 30px;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: 1.7fr 1fr;
+}
+.info__card_exercise {
+  grid-area: exercise;
+  background: url("../../img/exercise.png") no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-blend-mode: multiply;
+  box-shadow: inset -2px 53px 83px 0px rgba(71, 9, 62, 0.9);
+}
+.info__card_diagnostic {
+  grid-area: diagnostic;
+  background: url("../../img/diagnostic.png") no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-blend-mode: multiply;
+  box-shadow: inset -2px 53px 83px 0px rgba(71, 9, 62, 0.9);
+}
+.info__card_diet {
+  grid-area: diet;
+  background: url("../../img/diet.png") no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-blend-mode: multiply;
+  box-shadow: inset -2px 53px 83px 0px rgba(71, 9, 62, 0.9);
+}
+.info__card_varicosity {
+  grid-area: varicosity;
+  background-color: var(--purple);
+}
+.info__head {
+  font-weight: 300;
+  font-size: 36px;
+  color: var(--white);
+  padding: 24px 28px;
+  padding-bottom: 60px;
+}
+.info__button {
+  margin-top: 35px;
+}
+
 /*# sourceMappingURL=index.css.map */
