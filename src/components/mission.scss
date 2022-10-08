@@ -47,7 +47,6 @@
     }
 
     &__star {
-        text-align: center;
         animation: star 1.5s infinite;
     }
 
@@ -67,9 +66,52 @@
     }
 
     &__heaviness {
-        padding-top: 13px;
-        padding-bottom: 47px;
+        padding: 5px;
         position: absolute;
+        width: 137px;
+        height: 137px;
+        border-radius: 50%;
+        background-color: var(--purple-2);
+        top: 35px;
+        right: 0;
+    }
+
+    &__vector {
+        animation: vector 1.5s infinite;
+    }
+    @keyframes vector {
+        0% {
+            transform: translateX(0%);
+            transform-origin: center;
+        }
+        50% {
+            transform: translateX(10%);
+            transform-origin: center;
+        }
+        100% {
+            transform: translateX(0%);
+            transform-origin: center;
+        }
+    }
+    &__vector2 {
+        animation: vector2 1.5s infinite;
+        position: absolute;
+        top: 28px;
+        left: -8px;
+    }
+    @keyframes vector2 {
+        0% {
+            transform: translateX(0%);
+            transform-origin: center;
+        }
+        50% {
+            transform: translateX(-5%);
+            transform-origin: center;
+        }
+        100% {
+            transform: translateX(0%);
+            transform-origin: center;
+        }
     }
     &__pain {
         padding-top: 13px;
