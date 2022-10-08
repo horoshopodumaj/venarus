@@ -507,6 +507,7 @@ h6 {
 }
 .info__description {
   width: 24%;
+  z-index: 10;
 }
 .info__title {
   font-family: "Merriweather", serif;
@@ -520,13 +521,14 @@ h6 {
   font-size: 16px;
   line-height: 154.8%;
   font-weight: 400;
-  color: var(--grey);
+  color: var(--white);
 }
 .info__text span {
   text-transform: lowercase;
 }
 .info__block {
   width: 76%;
+  z-index: 10;
 }
 .info__content {
   display: grid;
@@ -572,6 +574,22 @@ h6 {
 }
 .info__button {
   margin-top: 35px;
+  background-color: transparent;
+  border: 1px solid var(--purple);
+  border-radius: 33.5px;
+  padding-top: 20px;
+  padding-bottom: 25px;
+  padding-right: 80px;
+  padding-left: 79px;
+  float: right;
+  color: var(--purple);
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 100%;
+}
+.info__button:hover {
+  background-color: var(--purple-2);
+  color: var(--white);
 }
 
 .shop {
@@ -725,6 +743,15 @@ h6 {
 #canvas2 {
   position: absolute;
   top: 390px;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  margin: auto;
+}
+
+#canvas3 {
+  position: absolute;
+  top: 410px;
   right: 0;
   bottom: 0;
   left: 0;

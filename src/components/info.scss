@@ -3,6 +3,7 @@
     gap: 29px;
     &__description {
         width: 24%;
+        z-index: 10;
     }
     &__title {
         font-family: "Merriweather", serif;
@@ -17,7 +18,7 @@
         font-size: 16px;
         line-height: 154.8%;
         font-weight: 400;
-        color: var(--grey);
+        color: var(--white);
 
         & span {
             text-transform: lowercase;
@@ -26,6 +27,7 @@
 
     &__block {
         width: 76%;
+        z-index: 10;
     }
 
     &__content {
@@ -81,5 +83,21 @@
 
     &__button {
         margin-top: 35px;
+        background-color: transparent;
+        border: 1px solid var(--purple);
+        border-radius: 33.5px;
+        padding-top: 20px;
+        padding-bottom: 25px;
+        padding-right: 80px;
+        padding-left: 79px;
+        float: right;
+        color: var(--purple);
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 100%;
+        &:hover {
+            background-color: var(--purple-2);
+            color: var(--white);
+        }
     }
 }

@@ -10,7 +10,7 @@ const imgHeight2 = 870;
 
 const imageSlice2 = 2;
 
-image2.addEventListener("load", draw);
+image2.addEventListener("load", draw2);
 
 let speed2 = 0;
 function draw2() {
