@@ -155,9 +155,56 @@
         animation: ell 1.5s infinite;
     }
     &__edema {
-        padding-top: 13px;
-        padding-bottom: 47px;
+        padding: 5px;
         position: absolute;
+        width: 137px;
+        height: 137px;
+        border-radius: 50%;
+        background-color: var(--purple-2);
+        top: 82px;
+        right: 42px;
+    }
+
+    &__ell3 {
+        position: absolute;
+        top: 9px;
+        left: -13px;
+        animation: ell3 1.5s infinite;
+    }
+    @keyframes ell3 {
+        0% {
+            transform: translateX(0%);
+            transform-origin: center;
+        }
+        50% {
+            transform: translateX(-5%);
+            transform-origin: center;
+        }
+        100% {
+            transform: translateX(0%);
+            transform-origin: center;
+        }
+    }
+    &__ell4 {
+        position: absolute;
+        top: 9px;
+        left: 86px;
+        animation: ell4 1.5s infinite;
+    }
+
+    @keyframes ell4 {
+        0% {
+            transform: translateX(0%);
+            transform-origin: center;
+        }
+        50% {
+            transform: translateX(5%);
+            transform-origin: center;
+        }
+        100% {
+            transform: translateX(0%);
+            transform-origin: center;
+        }
     }
     &__tone {
         padding-top: 13px;
