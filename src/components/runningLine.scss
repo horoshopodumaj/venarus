@@ -1,11 +1,36 @@
 .runningLine {
-    font-size: 48px;
-    line-height: 117%;
-    text-transform: uppercase;
-    color: var(--purple-2);
-    padding-top: 16px;
-    padding-bottom: 22px;
+    display: flex;
+    overflow: hidden;
+    white-space: nowrap;
+    align-items: center;
+    position: relative;
     border-top: 1px solid var(--purple);
     border-bottom: 1px solid var(--purple);
-    font-weight: 300;
+
+    &__text {
+        font-size: 48px;
+        line-height: 117%;
+        text-transform: uppercase;
+        color: var(--purple-2);
+        padding-top: 16px;
+        padding-bottom: 22px;
+        font-weight: 300;
+        position: relative;
+        animation: runline 10s infinite linear;
+        &::after {
+            content: " получить скидку 10% >>> ";
+        }
+        &:hover {
+            animation-play-state: paused;
+        }
+    }
+}
+
+@keyframes runline {
+    0% {
+        transform: translateX(-100%);
+    }
+    100% {
+        transform: translateX(100%);
+    }
 }
