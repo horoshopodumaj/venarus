@@ -114,9 +114,45 @@
         }
     }
     &__pain {
-        padding-top: 13px;
-        padding-bottom: 47px;
+        padding: 5px;
         position: absolute;
+        width: 137px;
+        height: 137px;
+        border-radius: 50%;
+        background-color: var(--purple-2);
+        top: -21px;
+        left: 51px;
+    }
+
+    &__ell {
+        position: absolute;
+        top: 42px;
+        left: 45px;
+        animation: ell 1.5s infinite;
+    }
+    @keyframes ell {
+        0% {
+            transform: scale(1);
+            transform-origin: center;
+        }
+        50% {
+            transform: scale(1.5);
+            transform-origin: center;
+        }
+        50% {
+            transform: scale(1.1);
+            transform-origin: center;
+        }
+        100% {
+            transform: scale(1.2);
+            transform-origin: center;
+        }
+    }
+    &__ell2 {
+        position: absolute;
+        top: 60px;
+        left: 64px;
+        animation: ell 1.5s infinite;
     }
     &__edema {
         padding-top: 13px;
