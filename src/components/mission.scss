@@ -207,9 +207,55 @@
         }
     }
     &__tone {
-        padding-top: 13px;
-        padding-bottom: 47px;
+        padding: 5px;
         position: absolute;
+        width: 137px;
+        height: 137px;
+        border-radius: 50%;
+        background-color: var(--purple-2);
+        top: 70px;
+        left: 125px;
+    }
+
+    &__arrow {
+        position: absolute;
+        top: 35px;
+        left: 0px;
+        animation: arrow 1.5s infinite;
+    }
+    @keyframes arrow {
+        0% {
+            transform: translateX(0%);
+            transform-origin: center;
+        }
+        50% {
+            transform: translateX(5%);
+            transform-origin: center;
+        }
+        100% {
+            transform: translateX(0%);
+            transform-origin: center;
+        }
+    }
+    &__arrow1 {
+        position: absolute;
+        top: 38px;
+        left: 58px;
+        animation: arrow1 1.5s infinite;
+    }
+    @keyframes arrow1 {
+        0% {
+            transform: translateX(0%);
+            transform-origin: center;
+        }
+        50% {
+            transform: translateX(-5%);
+            transform-origin: center;
+        }
+        100% {
+            transform: translateX(0%);
+            transform-origin: center;
+        }
     }
 
     &__link {
