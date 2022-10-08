@@ -119,7 +119,7 @@
 
     &__advantages {
         display: flex;
-        gap: 128px;
+        gap: 157px;
         margin-top: 103px;
         margin-bottom: 128px;
     }
@@ -128,6 +128,7 @@
         display: flex;
         gap: 30px;
         align-items: center;
+        position: relative;
     }
 
     &__production {
@@ -142,5 +143,33 @@
 
     &__shop {
         margin-bottom: 94px;
+    }
+
+    &__tooltip {
+        width: 30px;
+        height: 30px;
+        position: absolute;
+        top: 31px;
+        left: 311px;
+        &:hover .tooltiptext {
+            visibility: visible;
+        }
+    }
+
+    &__tooltiptext {
+        visibility: hidden;
+        width: 150px;
+        color: var(--white);
+        background-color: var(--purple-2);
+        text-align: center;
+        border-radius: 6px;
+        padding: 5px;
+        position: absolute;
+        z-index: 2;
+        top: 61px;
+        left: 178px;
+        &_active {
+            visibility: visible;
+        }
     }
 }
