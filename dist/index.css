@@ -510,6 +510,14 @@ h6 {
   display: inline-block;
   float: left;
 }
+.specialists__play {
+  position: absolute;
+  width: 67px;
+  height: 67px;
+  top: 250px;
+  left: 390px;
+  z-index: 2;
+}
 .specialists__button {
   display: inline-block;
   width: 16px;
