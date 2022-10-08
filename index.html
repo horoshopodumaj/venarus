@@ -192,16 +192,13 @@
                         <ul class="mission__content">
                             <li class="mission__point">
                                 <a href="" class="mission__link">Подробнее ></a>
-                                <img
-                                    class="mission__convulsion"
-                                    src="./img/ellipse.png"
-                                    alt="convulsion"
-                                />
-                                <img
-                                    class="mission__convulsion"
-                                    src="./img/star.png"
-                                    alt="convulsion"
-                                />
+                                <div class="mission__convulsion">
+                                    <img
+                                        class="mission__star"
+                                        src="./img/star.png"
+                                        alt="convulsion"
+                                    />
+                                </div>
                                 <p class="mission__symptom">
                                     Помогает<br />
                                     предотвратить судороги
@@ -277,6 +274,11 @@
                                 </div>
                                 <div class="production__video">
                                     <img src="./img/links_zavod_1.png" alt="" />
+                                    <svg class="production__play">
+                                        <use
+                                            xlink:href="./img/sprite-icons.svg#play"
+                                        ></use>
+                                    </svg>
                                 </div>
                                 <div class="production__buttons">
                                     <button class="production__up">

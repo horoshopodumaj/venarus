@@ -60,4 +60,17 @@
             color: var(--white);
         }
     }
+
+    &__video {
+        position: relative;
+    }
+
+    &__play {
+        position: absolute;
+        width: 67px;
+        height: 67px;
+        top: 115px;
+        left: 220px;
+        z-index: 2;
+    }
 }

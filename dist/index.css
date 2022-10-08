@@ -397,9 +397,32 @@ h6 {
   border-top: 1px solid var(--purple);
 }
 .mission__convulsion {
-  padding-top: 13px;
-  padding-bottom: 47px;
+  padding: 5px;
   position: absolute;
+  width: 137px;
+  height: 137px;
+  border-radius: 50%;
+  background-color: var(--purple-2);
+  top: 13px;
+  left: 118px;
+}
+.mission__star {
+  text-align: center;
+  animation: star 1.5s infinite;
+}
+@keyframes star {
+  0% {
+    transform: scale(0.9);
+    transform-origin: center;
+  }
+  50% {
+    transform: scale(1);
+    transform-origin: center;
+  }
+  100% {
+    transform: scale(0.9);
+    transform-origin: center;
+  }
 }
 .mission__heaviness {
   padding-top: 13px;
@@ -495,6 +518,17 @@ h6 {
 .production__button:hover {
   background-color: var(--purple-2);
   color: var(--white);
+}
+.production__video {
+  position: relative;
+}
+.production__play {
+  position: absolute;
+  width: 67px;
+  height: 67px;
+  top: 115px;
+  left: 220px;
+  z-index: 2;
 }
 
 .specialists {
