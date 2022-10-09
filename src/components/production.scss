@@ -31,9 +31,12 @@
         @media screen and (max-width: 1439px) and (min-width: 890px) {
             justify-content: center;
         }
-        @media screen and (max-width: 889px) {
+        @media screen and (max-width: 889px) and (min-width: 801px) {
             flex-wrap: wrap;
             justify-content: center;
+        }
+        @media screen and (max-width: 800px) {
+            flex-direction: column;
         }
     }
 
@@ -86,7 +89,11 @@
         font-weight: 400;
         font-size: 18px;
         line-height: 100%;
-        @media screen and (max-width: 1439px) {
+        @media screen and (max-width: 1439px) and (min-width: 801px) {
+            border: 1px solid var(--purple-2);
+            color: var(--purple-2);
+        }
+        @media screen and (max-width: 800px) {
             border: 1px solid var(--purple-2);
             color: var(--purple-2);
         }

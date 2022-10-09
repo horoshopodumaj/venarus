@@ -36,6 +36,9 @@
         @media screen and (min-width: 1440px) {
             flex-direction: column;
         }
+        @media screen and (max-width: 706px) {
+            display: none;
+        }
     }
 
     &__hint {
@@ -80,6 +83,9 @@
         @media screen and (max-width: 1439px) and (min-width: 1040) {
             text-align: center;
         }
+        @media screen and (max-width: 574px) {
+            height: 367px;
+        }
     }
 
     &__img_90060 {
@@ -89,13 +95,33 @@
         @media screen and (max-width: 1039px) {
             visibility: hidden;
         }
+        @media screen and (max-width: 688px) {
+            display: none;
+        }
     }
     &__img_90030 {
         position: relative;
         top: -641px;
         left: 74px;
-        @media screen and (max-width: 1039px) {
+        @media screen and (max-width: 1039px) and (min-width: 864px) {
             left: 11px;
+        }
+        @media screen and (max-width: 863px) and (min-width: 689px) {
+            max-width: 600px;
+            left: 95px;
+            top: -317px;
+        }
+        @media screen and (max-width: 688px) and (min-width: 543px) {
+            max-width: 527px;
+            height: 294px;
+            left: 26px;
+            top: 69px;
+        }
+        @media screen and (max-width: 542px) {
+            max-width: 400px;
+            height: 200px;
+            left: 26px;
+            top: 69px;
         }
     }
     &__img_450 {
@@ -105,8 +131,11 @@
         @media screen and (max-width: 1439px) and (min-width: 1040) {
             left: 307px;
         }
-        @media screen and (max-width: 1039px) {
+        @media screen and (max-width: 1039px) and (min-width: 864px) {
             left: 218px;
+        }
+        @media screen and (max-width: 863px) {
+            display: none;
         }
     }
 
@@ -173,6 +202,8 @@
             gap: 20px;
         }
         @media screen and (max-width: 1039px) {
+            margin-top: 50px;
+            margin-bottom: 80px;
             flex-direction: column;
             align-items: center;
             gap: 50px;
@@ -189,9 +220,13 @@
     &__production {
         margin-top: 300px;
         margin-bottom: 220px;
-        @media screen and (max-width: 1439px) {
+        @media screen and (max-width: 1439px) and (min-width: 800px) {
             margin-top: 200px;
             margin-bottom: 120px;
+        }
+        @media screen and (max-width: 799px) and (min-width: 500px) {
+            margin-top: 100px;
+            margin-bottom: 50px;
         }
     }
 

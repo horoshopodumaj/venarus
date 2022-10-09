@@ -47,10 +47,22 @@
         display: grid;
         grid-template-areas:
             "exercise diagnostic diet"
+            "exercise diagnostic diet"
+            "exercise diagnostic diet"
             "exercise varicosity varicosity";
         grid-gap: 30px;
         grid-template-columns: repeat(3, 1fr);
         grid-template-rows: 1.7fr 1fr;
+        @media screen and (max-width: 840px) {
+            grid-template-areas:
+                "exercise"
+                "diagnostic"
+                "diet"
+                "varicosity";
+            grid-gap: 15px;
+            grid-template-columns: repeat(1, 1fr);
+            grid-template-rows: 1fr;
+        }
     }
 
     &__card {
