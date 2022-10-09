@@ -28,7 +28,11 @@
     &__content {
         display: flex;
         align-items: center;
-        @media screen and (max-width: 1439px) {
+        @media screen and (max-width: 1439px) and (min-width: 890px) {
+            justify-content: center;
+        }
+        @media screen and (max-width: 889px) {
+            flex-wrap: wrap;
             justify-content: center;
         }
     }
@@ -38,11 +42,19 @@
         flex-direction: column;
         justify-content: center;
         margin-left: 20px;
+        @media screen and (max-width: 888px) {
+            flex-direction: row;
+            gap: 20px;
+            justify-content: center;
+        }
     }
 
     &__up {
         background-color: transparent;
         margin-bottom: 28px;
+        @media screen and (max-width: 888px) {
+            margin-bottom: 0px;
+        }
     }
 
     &__svg {

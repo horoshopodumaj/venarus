@@ -39,6 +39,9 @@
         display: flex;
         border-bottom: 1px solid var(--purple);
         position: relative;
+        @media screen and (max-width: 811px) {
+            gap: 70px;
+        }
 
         &:first-child {
             border-top: 1px solid var(--purple);
