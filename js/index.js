@@ -19,7 +19,7 @@ $(function () {
             );
         } else {
             $(".specialists__button").removeClass("specialists__button_active");
-            var translateWith = -$(".specialists__content").width() * slideNow;
+            var translateWith = -$(".specialists__img").width() * slideNow;
             $(".specialists__wrapper").css({
                 transform: `translate(${translateWith}px,0)`,
                 "-o-transform": `translate(${translateWith}px,0)`,

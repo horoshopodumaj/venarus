@@ -1,8 +1,16 @@
 .specialists {
     display: flex;
+    @media screen and (max-width: 1439px) {
+        flex-direction: column;
+    }
     &__description {
         width: 24%;
         margin-right: 52px;
+        @media screen and (max-width: 1439px) {
+            width: 100%;
+            text-align: center;
+            margin-right: 0;
+        }
     }
     &__title {
         font-family: "Merriweather", serif;
@@ -18,11 +26,20 @@
         line-height: 154.8%;
         font-weight: 400;
         color: var(--grey);
+        @media screen and (max-width: 1439px) {
+            margin-bottom: 26px;
+        }
     }
 
     &__gallery {
         width: 76%;
         position: relative;
+        @media screen and (max-width: 1439px) {
+            width: 100%;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
     }
 
     &__content {
@@ -30,6 +47,9 @@
         position: relative;
         overflow: hidden;
         margin-bottom: 30px;
+        @media screen and (max-width: 1439px) {
+            width: 847px;
+        }
     }
 
     &__wrapper {

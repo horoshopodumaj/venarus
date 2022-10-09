@@ -837,9 +837,21 @@ h6 {
 .specialists {
   display: flex;
 }
+@media screen and (max-width: 1439px) {
+  .specialists {
+    flex-direction: column;
+  }
+}
 .specialists__description {
   width: 24%;
   margin-right: 52px;
+}
+@media screen and (max-width: 1439px) {
+  .specialists__description {
+    width: 100%;
+    text-align: center;
+    margin-right: 0;
+  }
 }
 .specialists__title {
   font-family: "Merriweather", serif;
@@ -855,15 +867,33 @@ h6 {
   font-weight: 400;
   color: var(--grey);
 }
+@media screen and (max-width: 1439px) {
+  .specialists__text {
+    margin-bottom: 26px;
+  }
+}
 .specialists__gallery {
   width: 76%;
   position: relative;
+}
+@media screen and (max-width: 1439px) {
+  .specialists__gallery {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
 }
 .specialists__content {
   width: 100%;
   position: relative;
   overflow: hidden;
   margin-bottom: 30px;
+}
+@media screen and (max-width: 1439px) {
+  .specialists__content {
+    width: 847px;
+  }
 }
 .specialists__wrapper {
   position: relative;
