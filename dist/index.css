@@ -156,9 +156,21 @@ h6 {
   margin-top: 67px;
   margin-bottom: 151px;
 }
+@media screen and (max-width: 1439px) {
+  .main__block {
+    flex-direction: column;
+    margin-top: 30px;
+    margin-bottom: 100px;
+  }
+}
 .main__nav {
   width: 30%;
   z-index: 2;
+}
+@media screen and (max-width: 1439px) {
+  .main__nav {
+    width: 100%;
+  }
 }
 .main__title {
   font-family: "Merriweather", serif;
@@ -167,6 +179,21 @@ h6 {
   line-height: 100%;
   color: var(--black);
   margin-bottom: 215px;
+}
+@media screen and (max-width: 1439px) {
+  .main__title {
+    margin-bottom: 45px;
+    text-align: center;
+  }
+}
+.main__hints {
+  display: flex;
+  justify-content: space-between;
+}
+@media screen and (min-width: 1440px) {
+  .main__hints {
+    flex-direction: column;
+  }
 }
 .main__hint {
   display: flex;
@@ -201,6 +228,11 @@ h6 {
   width: 800px;
   height: 505px;
 }
+@media screen and (max-width: 1440px) {
+  .main__images {
+    text-align: center;
+  }
+}
 .main__img_90060 {
   position: relative;
   top: 71px;
@@ -216,6 +248,11 @@ h6 {
   top: -352px;
   left: 440px;
 }
+@media screen and (max-width: 1440px) {
+  .main__img_450 {
+    left: 307px;
+  }
+}
 .main__buttons {
   display: flex;
   flex-direction: column;
@@ -230,10 +267,20 @@ h6 {
   margin-right: 30px;
   stroke: var(--white);
 }
+@media screen and (max-width: 1439px) {
+  .main__left {
+    stroke: var(--purple-2);
+  }
+}
 .main__right {
   width: 68px;
   height: 68px;
   stroke: var(--white);
+}
+@media screen and (max-width: 1439px) {
+  .main__right {
+    stroke: var(--purple-2);
+  }
 }
 .main__efficient {
   width: 67px;
@@ -327,6 +374,12 @@ h6 {
 .button__shop:hover {
   background-color: var(--purple-2);
   color: var(--white);
+}
+@media screen and (max-width: 1439px) {
+  .button__shop {
+    border: 1px solid var(--purple-2);
+    color: var(--purple-2);
+  }
 }
 
 .runningLine {
@@ -992,11 +1045,16 @@ h6 {
 
 #canvas {
   position: absolute;
-  top: 120px;
+  top: 432px;
   right: 0;
   bottom: 0;
   left: 0;
   margin: auto;
+}
+@media screen and (max-width: 1439px) {
+  #canvas {
+    display: none;
+  }
 }
 
 #canvas2 {
@@ -1007,6 +1065,11 @@ h6 {
   left: 0;
   margin: auto;
 }
+@media screen and (max-width: 1439px) {
+  #canvas2 {
+    display: none;
+  }
+}
 
 #canvas3 {
   position: absolute;
@@ -1015,6 +1078,11 @@ h6 {
   bottom: 0;
   left: 0;
   margin: auto;
+}
+@media screen and (max-width: 1439px) {
+  #canvas3 {
+    display: none;
+  }
 }
 
 .canvas__wrapper {

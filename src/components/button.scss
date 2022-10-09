@@ -24,5 +24,9 @@
             background-color: var(--purple-2);
             color: var(--white);
         }
+        @media screen and (max-width: 1439px) {
+            border: 1px solid var(--purple-2);
+            color: var(--purple-2);
+        }
     }
 }

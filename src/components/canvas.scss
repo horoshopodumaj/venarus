@@ -1,10 +1,13 @@
 #canvas {
     position: absolute;
-    top: 120px;
+    top: 432px;
     right: 0;
     bottom: 0;
     left: 0;
     margin: auto;
+    @media screen and (max-width: 1439px) {
+        display: none;
+    }
 }
 #canvas2 {
     position: absolute;
@@ -13,6 +16,9 @@
     bottom: 0;
     left: 0;
     margin: auto;
+    @media screen and (max-width: 1439px) {
+        display: none;
+    }
 }
 #canvas3 {
     position: absolute;
@@ -21,6 +27,9 @@
     bottom: 0;
     left: 0;
     margin: auto;
+    @media screen and (max-width: 1439px) {
+        display: none;
+    }
 }
 
 .canvas__wrapper {
