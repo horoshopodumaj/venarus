@@ -332,6 +332,12 @@ h6 {
   margin-top: 300px;
   margin-bottom: 220px;
 }
+@media screen and (max-width: 1439px) {
+  .main__production {
+    margin-top: 200px;
+    margin-bottom: 120px;
+  }
+}
 .main__info {
   margin-top: 217px;
   margin-bottom: 150px;
@@ -725,6 +731,11 @@ h6 {
   display: flex;
   gap: 33px;
 }
+@media screen and (max-width: 1439px) {
+  .production {
+    flex-direction: column;
+  }
+}
 .production__title {
   width: 24%;
   font-family: "Merriweather", serif;
@@ -734,13 +745,29 @@ h6 {
   color: var(--black);
   z-index: 10;
 }
+@media screen and (max-width: 1439px) {
+  .production__title {
+    width: 100%;
+    text-align: center;
+  }
+}
 .production__gallery {
   width: 76%;
   z-index: 10;
 }
+@media screen and (max-width: 1439px) {
+  .production__gallery {
+    width: 100%;
+  }
+}
 .production__content {
   display: flex;
   align-items: center;
+}
+@media screen and (max-width: 1439px) {
+  .production__content {
+    justify-content: center;
+  }
 }
 .production__buttons {
   display: flex;
@@ -757,8 +784,18 @@ h6 {
   height: 68px;
   stroke: var(--white);
 }
+@media screen and (max-width: 1439px) {
+  .production__svg {
+    stroke: var(--purple-2);
+  }
+}
 .production__down {
   background-color: transparent;
+}
+@media screen and (max-width: 1439px) {
+  .production__down {
+    stroke: var(--purple-2);
+  }
 }
 .production__button {
   background-color: transparent;
@@ -774,6 +811,12 @@ h6 {
   font-weight: 400;
   font-size: 18px;
   line-height: 100%;
+}
+@media screen and (max-width: 1439px) {
+  .production__button {
+    border: 1px solid var(--purple-2);
+    color: var(--purple-2);
+  }
 }
 .production__button:hover {
   background-color: var(--purple-2);

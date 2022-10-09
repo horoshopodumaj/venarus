@@ -176,6 +176,10 @@
     &__production {
         margin-top: 300px;
         margin-bottom: 220px;
+        @media screen and (max-width: 1439px) {
+            margin-top: 200px;
+            margin-bottom: 120px;
+        }
     }
 
     &__info {

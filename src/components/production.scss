@@ -1,6 +1,9 @@
 .production {
     display: flex;
     gap: 33px;
+    @media screen and (max-width: 1439px) {
+        flex-direction: column;
+    }
     &__title {
         width: 24%;
         font-family: "Merriweather", serif;
@@ -9,15 +12,25 @@
         line-height: 120%;
         color: var(--black);
         z-index: 10;
+        @media screen and (max-width: 1439px) {
+            width: 100%;
+            text-align: center;
+        }
     }
     &__gallery {
         width: 76%;
         z-index: 10;
+        @media screen and (max-width: 1439px) {
+            width: 100%;
+        }
     }
 
     &__content {
         display: flex;
         align-items: center;
+        @media screen and (max-width: 1439px) {
+            justify-content: center;
+        }
     }
 
     &__buttons {
@@ -36,9 +49,15 @@
         width: 68px;
         height: 68px;
         stroke: var(--white);
+        @media screen and (max-width: 1439px) {
+            stroke: var(--purple-2);
+        }
     }
     &__down {
         background-color: transparent;
+        @media screen and (max-width: 1439px) {
+            stroke: var(--purple-2);
+        }
     }
 
     &__button {
@@ -55,6 +74,10 @@
         font-weight: 400;
         font-size: 18px;
         line-height: 100%;
+        @media screen and (max-width: 1439px) {
+            border: 1px solid var(--purple-2);
+            color: var(--purple-2);
+        }
         &:hover {
             background-color: var(--purple-2);
             color: var(--white);
