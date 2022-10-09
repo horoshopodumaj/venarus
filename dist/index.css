@@ -230,10 +230,10 @@ h6 {
   height: 81px;
 }
 .main__images {
-  width: 800px;
+  max-width: 800px;
   height: 505px;
 }
-@media screen and (max-width: 1440px) {
+@media screen and (max-width: 1439px) and (min-width: 1040) {
   .main__images {
     text-align: center;
   }
@@ -253,14 +253,24 @@ h6 {
   top: -641px;
   left: 74px;
 }
+@media screen and (max-width: 1039px) {
+  .main__img_90030 {
+    left: 11px;
+  }
+}
 .main__img_450 {
   position: relative;
   top: -352px;
   left: 440px;
 }
-@media screen and (max-width: 1440px) {
+@media screen and (max-width: 1439px) and (min-width: 1040) {
   .main__img_450 {
     left: 307px;
+  }
+}
+@media screen and (max-width: 1039px) {
+  .main__img_450 {
+    left: 218px;
   }
 }
 .main__buttons {
@@ -316,10 +326,19 @@ h6 {
   margin-top: 103px;
   margin-bottom: 128px;
 }
-@media screen and (max-width: 1439px) {
+@media screen and (max-width: 1439px) and (min-width: 1040px) {
   .main__advantages {
     margin-top: 70px;
     margin-bottom: 100px;
+    justify-content: space-between;
+    gap: 20px;
+  }
+}
+@media screen and (max-width: 1039px) and (min-width: 768px) {
+  .main__advantages {
+    flex-direction: column;
+    align-items: center;
+    gap: 50px;
   }
 }
 .main__advantage {
@@ -361,7 +380,7 @@ h6 {
 .main__tooltip:hover .tooltiptext {
   visibility: visible;
 }
-@media screen and (max-width: 1439px) and (min-width: 769px) {
+@media screen and (max-width: 1439px) {
   .main__tooltip {
     width: 21px;
     height: 21px;
@@ -1093,7 +1112,7 @@ h6 {
   }
 }
 .shop__images {
-  width: 800px;
+  max-width: 800px;
   height: 410px;
 }
 .shop__img_90030 {
@@ -1154,6 +1173,11 @@ h6 {
   margin-top: 29px;
   margin-bottom: 50px;
 }
+@media screen and (max-width: 1439px) {
+  .footer__title {
+    text-align: center;
+  }
+}
 .footer__message {
   display: flex;
   align-items: center;
@@ -1165,11 +1189,21 @@ h6 {
   color: var(--grey-2);
   margin-right: 221px;
 }
+@media screen and (max-width: 1439px) {
+  .footer__trouble {
+    margin-right: 100px;
+  }
+}
 .footer__conditions {
   font-weight: 300;
   font-size: 12px;
   color: var(--grey-2);
   margin-right: 138px;
+}
+@media screen and (max-width: 1439px) {
+  .footer__conditions {
+    margin-right: 50px;
+  }
 }
 .footer__vk {
   width: 33px;
