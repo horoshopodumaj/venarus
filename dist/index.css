@@ -342,6 +342,12 @@ h6 {
   margin-top: 217px;
   margin-bottom: 150px;
 }
+@media screen and (max-width: 1439px) {
+  .main__info {
+    margin-top: 117px;
+    margin-bottom: 50px;
+  }
+}
 .main__shop {
   margin-bottom: 94px;
 }
@@ -931,9 +937,20 @@ h6 {
   display: flex;
   gap: 29px;
 }
+@media screen and (max-width: 1439px) {
+  .info {
+    flex-direction: column;
+  }
+}
 .info__description {
   width: 24%;
   z-index: 10;
+}
+@media screen and (max-width: 1439px) {
+  .info__description {
+    width: 100%;
+    text-align: center;
+  }
 }
 .info__title {
   font-family: "Merriweather", serif;
@@ -949,12 +966,22 @@ h6 {
   font-weight: 400;
   color: var(--white);
 }
+@media screen and (max-width: 1439px) {
+  .info__text {
+    color: var(--grey);
+  }
+}
 .info__text span {
   text-transform: lowercase;
 }
 .info__block {
   width: 76%;
   z-index: 10;
+}
+@media screen and (max-width: 1439px) {
+  .info__block {
+    width: 100%;
+  }
 }
 .info__content {
   display: grid;
