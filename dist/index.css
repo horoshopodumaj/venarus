@@ -1886,5 +1886,59 @@ h6 {
   display: block;
   margin: 0 auto;
 }
+@media screen and (max-width: 694px) and (min-width: 596px) {
+  .modal__img {
+    max-width: 400px;
+  }
+}
+@media screen and (max-width: 595px) and (min-width: 400px) {
+  .modal__img {
+    max-width: 300px;
+  }
+}
+@media screen and (max-width: 399px) and (min-width: 370px) {
+  .modal__img {
+    max-width: 280px;
+  }
+}
+@media screen and (max-width: 369px) and (min-width: 340px) {
+  .modal__img {
+    max-width: 256px;
+  }
+}
+@media screen and (max-width: 369px) and (min-width: 340px) {
+  .modal__img {
+    max-width: 256px;
+  }
+}
+@media screen and (max-width: 339px) {
+  .modal__img {
+    max-width: 238px;
+  }
+}
+.modal__close {
+  position: absolute;
+  top: 15px;
+  right: 15px;
+  width: 24px;
+  height: 24px;
+}
+@media screen and (max-width: 426px) and (min-width: 340px) {
+  .modal__close {
+    top: 10px;
+    right: 10px;
+  }
+}
+@media screen and (max-width: 339px) {
+  .modal__close {
+    top: 5px;
+    right: 5px;
+  }
+}
+@media screen and (max-width: 694px) {
+  .modal__container {
+    max-width: 525px;
+  }
+}
 
 /*# sourceMappingURL=index.css.map */

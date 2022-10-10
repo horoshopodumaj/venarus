@@ -300,13 +300,18 @@
                 <div class="page__box">
                     <div class="modal" id="modal">
                         <div class="modal__window">
-                            <div>
+                            <div class="modal__container">
                                 <img
                                     class="modal__img"
                                     src="./img/links_zavod_1.png"
                                     alt=""
                                 />
                             </div>
+                            <svg id="modal-close" class="modal__close">
+                                <use
+                                    xlink:href="./img/sprite-icons.svg#close"
+                                ></use>
+                            </svg>
                         </div>
                     </div>
                     <div class="production main__production">
@@ -318,7 +323,7 @@
                                 <div class="production__preview">
                                     <img src="./img/links_zavod_2.jpg" alt="" />
                                 </div>
-                                <div class="production__video">
+                                <div class="production__video" id="modal-open">
                                     <img src="./img/links_zavod_1.png" alt="" />
                                     <svg class="production__play">
                                         <use
@@ -537,4 +542,5 @@
     <script src="./js/waveGlitch3.js"></script>
     <script src="./js/index.js"></script>
     <script src="./js/tooltip.js"></script>
+    <script src="./js/modal.js"></script>
 </html>

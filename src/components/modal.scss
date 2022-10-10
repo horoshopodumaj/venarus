@@ -38,5 +38,45 @@
     &__img {
         display: block;
         margin: 0 auto;
+        @media screen and (max-width: 694px) and (min-width: 596px) {
+            max-width: 400px;
+        }
+        @media screen and (max-width: 595px) and (min-width: 400px) {
+            max-width: 300px;
+        }
+        @media screen and (max-width: 399px) and (min-width: 370px) {
+            max-width: 280px;
+        }
+        @media screen and (max-width: 369px) and (min-width: 340px) {
+            max-width: 256px;
+        }
+        @media screen and (max-width: 369px) and (min-width: 340px) {
+            max-width: 256px;
+        }
+        @media screen and (max-width: 339px) {
+            max-width: 238px;
+        }
+    }
+
+    &__close {
+        position: absolute;
+        top: 15px;
+        right: 15px;
+        width: 24px;
+        height: 24px;
+        @media screen and (max-width: 426px) and (min-width: 340px) {
+            top: 10px;
+            right: 10px;
+        }
+        @media screen and (max-width: 339px) {
+            top: 5px;
+            right: 5px;
+        }
+    }
+
+    &__container {
+        @media screen and (max-width: 694px) {
+            max-width: 525px;
+        }
     }
 }
