@@ -1,0 +1,42 @@
+.modal {
+    display: none;
+    background-color: rgba(0, 0, 0, 0.42);
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: 100;
+    overflow: hidden;
+    overflow-y: auto;
+
+    &__window {
+        background: var(--white);
+        border-radius: 8px;
+        box-sizing: border-box;
+        position: relative;
+        margin: 20% auto;
+        padding: 40px 30px;
+        max-width: 90%;
+
+        @media screen and (max-width: 460px) {
+            padding: 20px 25px;
+        }
+
+        @media screen and (max-width: 575px) and (min-width: 461px) {
+            padding: 30px 60px;
+        }
+        @media screen and (max-width: 767px) and (min-width: 576px) {
+            padding: 40px 65px;
+        }
+
+        @media screen and (max-width: 992px) and (min-width: 768px) {
+            padding: 45px 75px;
+        }
+    }
+
+    &__img {
+        display: block;
+        margin: 0 auto;
+    }
+}
