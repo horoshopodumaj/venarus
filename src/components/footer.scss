@@ -104,6 +104,10 @@
         float: right;
         display: flex;
         margin-bottom: 28px;
+        @media screen and (max-width: 384px) {
+            flex-direction: column;
+            float: none;
+        }
     }
 
     &__address {
@@ -112,9 +116,20 @@
         line-height: 130%;
         color: var(--grey-3);
         margin-right: 100px;
+        @media screen and (max-width: 425px) and (min-width: 385px) {
+            margin-right: 20px;
+        }
+        @media screen and (max-width: 384px) {
+            margin-right: 0px;
+            margin-bottom: 15px;
+        }
     }
     &__logo {
         margin-right: 15px;
+        @media screen and (max-width: 384px) {
+            margin-right: 0px;
+            margin-bottom: 15px;
+        }
     }
 
     &__studio {

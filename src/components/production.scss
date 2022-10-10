@@ -92,10 +92,15 @@
         @media screen and (max-width: 1439px) and (min-width: 801px) {
             border: 1px solid var(--purple-2);
             color: var(--purple-2);
+            margin-top: 15px;
         }
         @media screen and (max-width: 800px) {
             border: 1px solid var(--purple-2);
             color: var(--purple-2);
+            margin-top: 15px;
+        }
+        @media screen and (max-width: 660px) {
+            width: 100%;
         }
         &:hover {
             background-color: var(--purple-2);
@@ -105,6 +110,18 @@
 
     &__video {
         position: relative;
+        & img {
+            @media screen and (max-width: 540px) and (min-width: 440px) {
+                width: 400px;
+                display: block;
+                margin: 0 auto;
+            }
+            @media screen and (max-width: 439px) {
+                width: 280px;
+                display: block;
+                margin: 0 auto;
+            }
+        }
     }
 
     &__play {
@@ -114,5 +131,8 @@
         top: 115px;
         left: 220px;
         z-index: 2;
+        @media screen and (max-width: 540px) {
+            display: none;
+        }
     }
 }
